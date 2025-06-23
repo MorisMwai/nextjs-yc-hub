@@ -35,6 +35,11 @@ const workSans = localFont({
             style: "normal",
         },
         {
+            path: "./fonts/WorkSans-Light.ttf",
+            weight: "300",
+            style: "normal",
+        },
+        {
             path: "./fonts/WorkSans-Thin.ttf",
             weight: "200",
             style: "normal",
@@ -45,8 +50,7 @@ const workSans = localFont({
             style: "normal",
         },
     ],
-    variable: "--font-work-sans",
-    fallback: ['system-ui', 'arial']
+    variable: "--font-work-sans"
 });
 
 export const metadata: Metadata = {
