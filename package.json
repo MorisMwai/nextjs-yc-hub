@@ -1,40 +1,55 @@
 {
   "name": "nextjs_mastery",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "dev": "next dev --turbopack -p 3001",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorisMwai/nextjs-yc-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorisMwai/nextjs-yc-hub/issues"
+  },
+  "homepage": "https://github.com/MorisMwai/nextjs-yc-hub#readme",
   "packageManager": "npm@10.5.2",
   "overrides": {
     "react": "$react",
-    "react-dom": "$react-dom"
+    "react-dom": "$react-dom",
+    "next": "$next"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.511.0",
-    "next": "15.3.2",
+    "next": "^15.0.0-canary.183",
     "next-auth": "^5.0.0-beta.28",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.0.0-rc-2d16326d-20240930",
+    "react-dom": "^19.0.0-rc-2d16326d-20240930",
     "tailwind-merge": "^3.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.2",
-    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "22.15.23",
+    "@types/react": "19.1.6",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.8",
     "tw-animate-css": "^1.3.0",
-    "typescript": "^5"
+    "typescript": "5.8.3"
   }
 }
